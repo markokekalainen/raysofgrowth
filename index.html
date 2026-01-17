@@ -13,14 +13,62 @@
         font-display: swap;
       }
 
+      :root {
+        --header-bg: #dfeee8;
+        --page-bg: #f7f5f0;
+      }
+
       body {
         font-family: "Zain", system-ui, sans-serif;
+        margin: 0;
+        background: var(--page-bg);
+      }
+
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 48px 24px 64px;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin: 0 0 8px;
+      }
+
+      header {
+        background: var(--header-bg);
+        width: 100%;
+      }
+
+      .header-inner {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 36px 24px;
+      }
+
+      header .logo {
+        margin: 0;
+      }
+
+      .logo {
+        display: block;
+        width: 20%;
+        height: auto;
+        padding: 16px;
+        border: 1px solid #e2e2dc;
+        border-radius: 12px;
+        background: #faf9f6;
       }
     </style>
   </head>
   <body>
+    <header aria-label="Logo">
+      <div class="header-inner">
+        <img class="logo" src="assets/logos/logo-lockup-teal.svg" alt="Raysofgrowth wordmark with symbol in teal">
+      </div>
+    </header>
     <main>
-      <h1>Rays Of Growth</h1>
+      <h1>asdf</h1>
       <p>coming soon...</p>
     </main>
   </body>
