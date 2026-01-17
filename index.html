@@ -63,6 +63,28 @@
         max-width: 60ch;
       }
 
+      .ideas {
+        display: flex;
+        gap: 20px;
+        margin-top: 28px;
+        flex-wrap: wrap;
+      }
+
+      .idea-card {
+        flex: 1 1 220px;
+        padding: 18px 20px;
+        border-radius: 16px;
+        background: #e9f2ef;
+      }
+
+      .idea-card:nth-child(2) {
+        background: #f2ede6;
+      }
+
+      .idea-card:nth-child(3) {
+        background: #eaf0f6;
+      }
+
       header {
         background: var(--header-bg);
         width: 100%;
@@ -99,8 +121,13 @@
       </div>
     </header>
     <main>
-      <h1>Anna kasvulle mahdollisuus</h1>
+      <h1>Voit aina kasvaa</h1>
       <p class="subtitle">Uteliasta pohdintaa kasvun merkityksestä ja mahdollisuuksista</p>
+      <div class="ideas">
+        <div class="idea-card">Hiljainen kasvu arjessa</div>
+        <div class="idea-card">Uteliaisuus ja suunta</div>
+        <div class="idea-card">Pienet teot, suuret vaikutukset</div>
+      </div>
     </main>
   </body>
 </html>
