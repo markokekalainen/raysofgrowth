@@ -64,17 +64,25 @@ h1 {
 
 .idea-card {
   flex: 1 1 220px;
-  padding: 18px 20px;
+  aspect-ratio: 1 / 1;
+  padding: 24px;
   border-radius: 16px;
-  background: #e9f2ef;
+  background: linear-gradient(145deg, #0e1b3b, #1a2f5e);
+  color: #f4f6f9;
+  font-size: clamp(18px, 2.4vw, 24px);
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .idea-card:nth-child(2) {
-  background: #f2ede6;
+  background: linear-gradient(145deg, #0c1733, #162a55);
 }
 
 .idea-card:nth-child(3) {
-  background: #eaf0f6;
+  background: linear-gradient(145deg, #102043, #1c3466);
 }
 
 header {
