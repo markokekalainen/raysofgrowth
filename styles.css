@@ -16,6 +16,8 @@
 body {
   font-family: "Zain", system-ui, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   background:
     radial-gradient(1200px 700px at 10% -10%, var(--page-glow), transparent 70%),
     radial-gradient(900px 600px at 90% 10%, var(--page-fog), transparent 65%),
@@ -38,6 +40,12 @@ body::before {
 main {
   max-width: 960px;
   margin: 0 auto;
+  padding: 48px 24px 64px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 h1 {
