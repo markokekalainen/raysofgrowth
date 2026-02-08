@@ -299,7 +299,7 @@ header .logo {
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px 20px;
+    padding: 18px 20px 16px;
   }
 
   .site-nav {
