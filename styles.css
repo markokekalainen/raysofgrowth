@@ -283,3 +283,38 @@ header .logo {
 .post-card.is-open .post-close {
   display: inline-flex;
 }
+
+@media (max-width: 720px) {
+  main {
+    padding: 32px 20px 48px;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 20px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  .logo {
+    width: 160px;
+    padding: 8px;
+  }
+
+  .ideas {
+    gap: 16px;
+  }
+
+  .idea-card {
+    flex-basis: 100%;
+  }
+}
