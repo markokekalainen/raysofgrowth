@@ -179,11 +179,18 @@ header .logo {
   gap: 12px;
 }
 
+.page-punchline {
+  margin: 0;
+  font-size: clamp(20px, 2.6vw, 26px);
+  font-style: italic;
+  color: #3f3f39;
+}
+
 .page-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-size: clamp(18px, 2.2vw, 22px);
+  font-size: clamp(16px, 2vw, 20px);
   line-height: 1.6;
   color: #4a4a44;
 }
