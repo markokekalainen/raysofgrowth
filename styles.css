@@ -276,6 +276,21 @@ header .logo {
   gap: 6px;
 }
 
+.event-poster {
+  margin: 0 0 12px;
+}
+
+.event-poster img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  max-height: 420px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px rgba(21, 28, 38, 0.18);
+}
+
 .coming-soon {
   padding: 24px;
   border-radius: 16px;
