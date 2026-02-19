@@ -278,11 +278,12 @@ header .logo {
 
 .event-poster {
   margin: 0 0 12px;
+  max-width: 520px;
 }
 
 .event-poster img {
   display: block;
-  width: min(100%, 520px);
+  width: 100%;
   max-height: 420px;
   height: auto;
   object-fit: cover;
