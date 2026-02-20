@@ -127,7 +127,7 @@ h1 {
   background: linear-gradient(145deg, #102043, #1c3466);
 }
 
-header {
+body > header {
   background: var(--header-bg);
   width: 100%;
 }
