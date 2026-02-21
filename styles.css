@@ -93,6 +93,11 @@ h1 {
   max-width: 60ch;
 }
 
+.subtitle-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .blog-intro {
   max-width: 68ch;
 }
