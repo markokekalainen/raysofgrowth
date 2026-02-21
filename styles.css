@@ -43,6 +43,12 @@ body {
   position: relative;
 }
 
+.home-page {
+  background:
+    linear-gradient(rgba(246, 244, 240, 0.62), rgba(246, 244, 240, 0.68)),
+    url("assets/images/chamonix.jpeg") center / cover fixed no-repeat;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -212,7 +218,7 @@ header .logo {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #173a5a;
+  color: #2e2b26;
   font-weight: 600;
   text-decoration: none;
 }
