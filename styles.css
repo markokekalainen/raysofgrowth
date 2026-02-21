@@ -139,7 +139,7 @@ h1 {
 }
 
 body > header {
-  background: var(--header-bg);
+  background: rgba(240, 244, 242, 0);
   width: 100%;
 }
 
