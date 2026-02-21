@@ -396,6 +396,8 @@ header .logo {
   }
 
   .site-nav {
+    width: 100%;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
   }
