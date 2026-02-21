@@ -275,6 +275,21 @@ header .logo {
   margin: 0;
 }
 
+.site-footer {
+  display: none;
+  width: 100%;
+  padding: 8px 24px 20px;
+  box-sizing: border-box;
+}
+
+.iteration-count {
+  margin: 0 auto;
+  max-width: 960px;
+  color: #6b6760;
+  font-size: 14px;
+  text-align: center;
+}
+
 .contact-block {
   display: flex;
   flex-direction: column;
