@@ -260,6 +260,17 @@ header .logo {
   margin: 0;
 }
 
+.highlight-quote {
+  margin: 4px 0;
+  padding: 14px 16px;
+  border-left: 4px solid #173a5a;
+  border-radius: 8px;
+}
+
+.highlight-quote p {
+  margin: 0;
+}
+
 .site-footer {
   display: block;
   width: 100%;
