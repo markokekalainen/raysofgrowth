@@ -34,13 +34,14 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background:
-    radial-gradient(1200px 700px at 10% -10%, var(--page-glow), transparent 70%),
-    radial-gradient(900px 600px at 90% 10%, var(--page-fog), transparent 65%),
-    linear-gradient(180deg, var(--page-bg), #f5f4f2 55%, #f3f1ed);
+  background: var(--page-bg);
   color: #2e2b26;
   min-height: 100vh;
   position: relative;
+}
+
+body:not(.home-page) {
+  background: #b9f1f8;
 }
 
 .home-page {
@@ -57,6 +58,10 @@ body::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
   opacity: 0.35;
   mix-blend-mode: soft-light;
+}
+
+body:not(.home-page)::before {
+  opacity: 0.08;
 }
 
 main {
