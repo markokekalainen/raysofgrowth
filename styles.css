@@ -405,6 +405,20 @@ header .logo {
     padding: 0 20px 48px;
   }
 
+  .blog,
+  .page {
+    gap: 16px;
+  }
+
+  .blog-hero,
+  .page-hero {
+    gap: 8px;
+  }
+
+  h1 {
+    margin: 0 0 6px;
+  }
+
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
