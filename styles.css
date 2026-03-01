@@ -245,6 +245,29 @@ header .logo {
   gap: 12px;
 }
 
+.inline-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #ffffff;
+  background: #173a5a;
+  border: 1px solid #173a5a;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.inline-cta:hover,
+.inline-cta:focus {
+  background: #0f2b44;
+  border-color: #0f2b44;
+}
+
 .page-punchline {
   margin: 0;
   font-size: clamp(20px, 2.6vw, 26px);
@@ -261,8 +284,17 @@ header .logo {
   color: #4a4a44;
 }
 
+.page-content > * {
+  min-width: 0;
+}
+
 .page-content p {
   margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.cta-center {
+  text-align: center;
 }
 
 .highlight-quote {
@@ -413,6 +445,11 @@ header .logo {
   .blog-hero,
   .page-hero {
     gap: 8px;
+  }
+
+  .inline-cta {
+    padding: 11px 16px;
+    font-size: 17px;
   }
 
   h1 {
