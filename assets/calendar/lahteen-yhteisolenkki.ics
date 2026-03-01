@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Rays Of Growth//Yhteisolenkki//FI
+PRODID:-//Rays Of Growth//Yhteisölenkki//FI
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Lähteen yhteisolenkki
+X-WR-CALNAME:Lähteen yhteisölenkki
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VTIMEZONE
 TZID:Europe/Helsinki
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:lahteen-yhteisolenkki@raysofgrowth.com
 DTSTAMP:20260301T153814Z
-SUMMARY:Lähteen yhteisolenkki
+SUMMARY:Lähteen yhteisölenkki
 DESCRIPTION:Kaikille avoin yhteisölenkki.\nJuostaan yhdessa matalalla kynnyksella.\nKeskiviikkoisin klo 18:00.
 LOCATION:Lähteen koulun kääntöpaikka
 DTSTART;TZID=Europe/Helsinki:20260304T180000
