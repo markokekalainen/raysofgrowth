@@ -340,6 +340,17 @@ header .logo {
   box-shadow: 0 16px 36px rgba(21, 28, 38, 0.18);
 }
 
+.qr-code-figure {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr-code-image {
+  background: #ffffff;
+  padding: 10px;
+}
+
 .coming-soon {
   padding: 24px;
   border-radius: 16px;
