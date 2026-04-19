@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Draft"
+  short_description: "Create a new markdown blog draft from the project template."
+  default_prompt: "Create a new blog draft for this repository."

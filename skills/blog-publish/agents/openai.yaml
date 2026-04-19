@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Publish"
+  short_description: "Publish markdown drafts into blog HTML pages."
+  default_prompt: "Publish a markdown draft to the website blog."
