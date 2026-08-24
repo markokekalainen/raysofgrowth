@@ -171,7 +171,7 @@ def render_post_html(meta: dict[str, str], body_html: str) -> str:
           <a class=\"nav-link\" href=\"../../index.html\">Etusivu</a>
           <a class=\"nav-link\" href=\"../../miksi/\">Mitä?</a>
           <a class=\"nav-link\" href=\"../../blog/\">Ajatuksia</a>
-          <a class=\"nav-link\" href=\"../../yhteiso/lahteen-yhteisolenkki/\">Lenkille?</a>
+          <a class=\"nav-link\" href=\"../../yhteisollisyys/lahteen-yhteisolenkki/\">Lenkille?</a>
         </nav>
       </div>
     </header>

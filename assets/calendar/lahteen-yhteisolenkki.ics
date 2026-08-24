@@ -32,6 +32,6 @@ LOCATION:Lähteen koulun kääntöpaikka
 DTSTART;TZID=Europe/Helsinki:20260304T180000
 DTEND;TZID=Europe/Helsinki:20260304T190000
 RRULE:FREQ=WEEKLY;BYDAY=WE
-URL:https://raysofgrowth.com/yhteiso/lahteen-yhteisolenkki/
+URL:https://raysofgrowth.com/yhteisollisyys/lahteen-yhteisolenkki/
 END:VEVENT
 END:VCALENDAR
